@@ -1,12 +1,10 @@
 package com.kentoapps.musicplayer;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.MediaController;
 import android.widget.VideoView;
 
 public class VideoActivity extends AppCompatActivity {
@@ -18,10 +16,6 @@ public class VideoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_video);
 
         VideoView videoView = (VideoView) findViewById(R.id.videoview);
-        String path = "android.resource://" + getPackageName() + "/" + R.raw.video_mario;
-        videoView.setVideoURI(Uri.parse(path));
-
-        videoView.setMediaController(new MediaController(this));
     }
 
     // Create menu
