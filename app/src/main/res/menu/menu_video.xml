@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.kentoapps.assignment5.activities.Problem1Activity">
+    <item
+        android:id="@+id/music"
+        android:orderInCategory="100"
+        android:title="MusicPlayer"
+        app:showAsAction="never"/>
+</menu>
